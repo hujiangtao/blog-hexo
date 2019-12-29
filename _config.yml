@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: '学而思之 不厌其烦'
+subtitle: '技术博客'
+description: '不积跬步，无以至千里；不积小流，无以成江海。'
+keywords: Javascript,nodejs
+author: Jonathan Hu
+language: zh-cn
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.kuai1.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -94,6 +94,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+# theme: xoxo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
