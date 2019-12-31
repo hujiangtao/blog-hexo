@@ -22,6 +22,7 @@ tags:
 1. 纯版本号
     如：```"react": "16.4.1"```   
     一般固定版本号，是担心安装了比当前版本高的版本，从而引起不兼容。不过现在都有了 arn.lock 或 package-lock.json 来锁版本，就没这类问题了。
+    <!-- more -->
 1. 带包名的版本号   
     如：```"react-native-webp-support": "TGPSKI/react-native-webp-support"```   
     详情见：https://github.com/TGPSKI/react-native-webp-support#ios
