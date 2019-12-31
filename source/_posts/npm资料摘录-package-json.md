@@ -2,7 +2,8 @@
 title: npm资料摘录-package.json
 date: 2019-12-31 02:31:36
 categories:
-- npm资料摘录
+- npm
+- 摘录
 tags:
 - npm
 - package.json
