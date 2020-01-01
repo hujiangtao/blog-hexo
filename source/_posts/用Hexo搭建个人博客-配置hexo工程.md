@@ -70,7 +70,7 @@ deploy:
   repo: git@github.com:yourname/yourname.github.io.git
   branch: master 
 ```
-然后运行hexo治理
+然后运行hexo指令
 ```
 hexo d
 ```
