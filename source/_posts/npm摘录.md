@@ -32,6 +32,7 @@ $ npm -v
 # 查看 npm 的配置
 $ npm config list -l
 ```
+<!-- more -->
 ## npm init
 `npm init`用来初始化生成一个新的`package.json`文件。它会向用户提问一系列问题，如果你觉得不用修改默认配置，一路回车就可以了。
 
@@ -626,6 +627,7 @@ npm的通配符的规则如下。
 * `*(a|b|c)` 匹配0个或多个给定的模式
 * `@(pattern|pat*|pat?erN)` 只匹配给定模式之一
 * `**` 如果出现在路径部分，表示0个或多个子目录。
+
 ## npm link
 开发NPM模块的时候，有时我们会希望，边开发边试用，比如本地调试的时候，`require('myModule')`会自动加载本机开发中的模块。Node规定，使用一个模块时，需要将其安装到全局的或项目的`node_modules`目录之中。对于开发中的模块，解决方法就是在全局的`node_modules`目录之中，生成一个符号链接，指向模块的本地目录。
 
@@ -743,7 +745,7 @@ $ npm repo $package
 ```
 这两个命令不需要模块先安装。
 
-## npm outdated
+### npm outdated
 `npm outdated`命令检查当前项目所依赖的模块，是否已经有新版本。
 ```
 $ npm outdated
