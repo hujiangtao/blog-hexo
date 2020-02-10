@@ -4,7 +4,7 @@
 
 # Site
 title: '学而思之'
-subtitle: '技术博客'
+subtitle: ''
 description: '不积跬步，无以至千里；不积小流，无以成江海。'
 keywords: Javascript,nodejs
 author: Jonathan
@@ -99,7 +99,10 @@ theme: newnext
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+## repo: https://github.com/jeraldwhoo/jeraldwhoo.github.io.git
 deploy:
   type: 'git'
   repo: git@github.com:hujiangtao/hujiangtao.github.io.git
   branch: master 
+
+
