@@ -12,7 +12,7 @@ language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://www.kuai1.com
 root: /
 permalink: :year/:month/:day/:title/
@@ -51,6 +51,11 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -76,8 +81,8 @@ meta_generator: true
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -94,15 +99,10 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: newnext
-# theme: next
-# theme: xoxo
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
-## repo: https://github.com/jeraldwhoo/jeraldwhoo.github.io.git
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
+  type: git
   repo: git@github.com:hujiangtao/hujiangtao.github.io.git
   branch: master 
-
-
