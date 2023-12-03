@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 学而思之
+title: 快意空间
 subtitle: ''
 description: '不积跬步，无以至千里；不积小流，无以成江海。'
 keywords: Javascript,nodejs
@@ -106,4 +106,4 @@ theme: next
 deploy:
   type: 'git'
   repo: git@github.com:hujiangtao/hujiangtao.github.io.git
-  branch: hexo6_3 
+  branch: kuai1
